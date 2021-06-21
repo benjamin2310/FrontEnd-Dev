@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ampah's Portfolio Site</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--Description-->
+<div class="container">
+<div class="intro">
+    <img class="profile-picture" src="images/profile-picture.jpg" alt="Profile_picture">
+    <h1>Benjamin Kwame Ampah</h1>
+    <h2>Web Manager at Developers In Vogue</h2>
+    <p>{{Life is a process}}</p>
+</div>
+<hr>
+<div class="about-grid">
+<div class="i-am">
+    <h3>Who I Am</h3>
+    <ul class="about-list">
+        <li>Programmer</li>
+        <li>FrontEnd Developer</li>
+        <li>IT Support Specialist</li>
+    </ul>
+</div>
+<div class="i-like">
+    <h3>What I Like</h3>
+    <ul class="about-list">
+        <li>Meeting new people</li>
+        <li>Playing guitar</li>
+        <li>Eating pizza with coke</li>
+    </ul>
+</div>
+</div>
+<hr>
+<!--Project Links-->
+<div>
+    <h3 class="projects-heading">My Projects</h3>
+    <div class="projects-grid">
+        <div class="projects-image-wrapper">
+            <img class="projects-image" src="images/project-1.jpg">
+            <h4>Project 1</h4>
+        </div>
+
+         <div class="projects-image-wrapper">
+            <img class="projects-image" src="images/project-2.jpg">
+            <h4>Project 2</h4>
+        </div>
+         <div class="projects-image-wrapper">
+            <img class="projects-image" src="images/project-3.jpg">
+            <h4>Project 3</h4>
+        </div>
+         <div class="projects-image-wrapper">
+            <img class="projects-image" src="images/project-4.jpg">
+            <h4>Project 4</h4>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="links-and-contact">
+<div class="links">
+    <h3>Social Links</h3>
+    <ul class="links-list">
+        <li><a href="https://bit.ly/linkedin-benjaminampah" target="_blank">Linkedin</a></li>
+        <li><a href="https://github.com/ampah-ben12" target="_blank">Github</a></li>
+        <li><a href="https://www.behance.net/ampahbenjamin" target="_blank">Behance</a></li>
+    </ul>
+</div>
+    <div>
+    <form action="mailto:ampahben3@gamil.com" method="POST" enctype="text/plain">
+        <label for="email"> <h4>Email</h4>
+        <input type="email" id="email" placeholder="Enter your mail" required>
+        </label>
+        <label for="Message"> <h4>Message</h4>
+        <textarea id="message">Your Message</textarea>
+        </label>
+        <div class="submit-button-wrapper">
+        <input id="submit-button" type="submit" value="Send Message">
+        </div>
+    </form>
+    </div>
+
+</div>
+</div>
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
